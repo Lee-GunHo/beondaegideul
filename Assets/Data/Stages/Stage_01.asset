@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fafa2903687305644a625eb0013baaa0, type: 3}
+  m_Name: Stage_01
+  m_EditorClassIdentifier: 
+  stageNumber: 1
+  targetEntrantCount: 5
+  successReward: 100
+  failurePenalty: 50
+  humanProb: 0.2
+  contradictProb: 0.2
+  defectProb: 0.2
+  isBlackoutDay: 0
+  dailyNews: 

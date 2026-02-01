@@ -1,0 +1,15 @@
+using UnityEngine;
+
+public static class TransformExt
+{
+    public static string GetHierarchyPath(this Transform t)
+    {
+        string path = t.name;
+        while (t.parent != null)
+        {
+            t = t.parent;
+            path = t.name + "/" + path;
+        }
+        return path;
+    }
+}
